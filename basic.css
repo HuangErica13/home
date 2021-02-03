@@ -1,0 +1,70 @@
+/*Formatting for Basic Info web page*/
+body{
+	background-image:url("images/basic_bg.jpg");	/*sets background and default text style*/
+	background-position:center;
+	text-align:center;
+	color:Lavender;
+	font-family:cursive;
+}
+h3{
+	font-size:18px;
+	margin-bottom:5px;
+}
+h4{
+	text-align:left;
+	font-weight:normal;
+	font-size:18px;
+	margin-left:13px;
+}
+ol{
+	list-style:none;	/*removes bullet points*/
+	display:inline-flex;	/*displays list items next to each other*/
+}
+ul{
+	list-style:none;	/*removes bullet points*/
+	border-bottom:2px dashed LavenderBlush;	/*creates bottom border*/
+	padding:39px;
+}
+li{
+	text-align:right;
+	margin-right:26px;
+}
+img{
+	float:right;
+	margin-right:200px;
+	margin-top:20px;
+}
+.top a{
+	margin:52px;	/*sets button style*/
+	color:plum;
+	font-size:20px;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+}
+.top a:hover{
+	border:2px solid plum;	/*displays border when mouse hovers over link*/
+	padding:5px;
+}
+.decor{
+	float:left;
+	margin:65px;
+}
+.border{
+	border:4px dotted white;
+	padding:2px;
+}
+.valid img{
+	margin:5px;
+}
+#bday:hover::after{
+	content: "The exact day I was born was actually a Friday the 13th!"	/*displays bonus info when mouse hovers over*/
+}
+#indexLink{
+	color:plum;		/*sets homepage button style*/
+	font-family:"DejaVu Sans Mono", monospace, cursive;
+	font-size:39px;
+}
+#indexLink:hover{
+	border:0;	/*overwrites display border rule for .top a*/
+}

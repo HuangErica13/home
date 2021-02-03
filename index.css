@@ -1,0 +1,41 @@
+/*Formatting for homepage*/
+body{
+	background-image:url("images/erica_bg.jpg");	/*sets image as background*/
+	height:1000px;
+	background-position:center;
+	background-size:cover;
+	text-align:center;	/*sets default text style for page*/
+	color:Lavender;
+	font-family:cursive;
+}
+h2, h6{
+	font-weight:normal;	/*sets h2 and h6 text to normal weight*/
+}
+p{
+	border-bottom:2px dashed LavenderBlush;	/*creates bottom border*/
+	padding:39px;
+}
+ol{
+	list-style:none;	/*removes bullet points*/
+	display:inline-flex;	/*displays list items next to each other*/
+}
+.top a{
+	margin:52px;	/*sets button style*/
+	color:plum;
+	font-size:20px;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+}
+.top a:hover{
+	border:2px solid plum;	/*displays border when mouse hovers over link*/
+	padding:5px;
+}
+#indexLink{
+	color:plum;		/*sets homepage button style*/
+	font-family:"DejaVu Sans Mono", monospace, cursive;
+	font-size:39px;
+}
+#indexLink:hover{
+	border:0;	/*overwrites display border rule for .top a*/
+}

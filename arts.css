@@ -1,0 +1,52 @@
+/*Formatting for The Arts and I web page*/
+body{
+	background-image:url("images/arts_bg.jpg");	/*sets background and default text style*/
+	text-align:center;
+	color:Lavender;
+	font-family:cursive;
+	font-weight:normal;
+}
+ol{
+	list-style:none;	/*removes bullet points*/
+	display:inline-flex;	/*displays list items next to each other*/
+}
+ul{
+	list-style:none;	/*removes bullet points*/
+	border-bottom:2px dashed LavenderBlush;	/*creates bottom border*/
+	padding:39px;
+}
+a{
+	
+}
+p+a, a+a{
+	text-decoration:none;	/*removes underline*/
+	margin:13px;
+	color:PaleGreen;
+}
+.content img{
+	border:2px dotted white;
+	margin:9px;
+}
+iframe{
+	margin:26px;
+}
+.top a{
+	margin:52px;	/*sets button style*/
+	color:plum;
+	font-size:20px;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+}
+.top a:hover{
+	border:2px solid plum;	/*displays border when mouse hovers over link*/
+	padding:5px;
+}
+#indexLink{
+	color:plum;		/*sets homepage button style*/
+	font-family:"DejaVu Sans Mono", monospace, cursive;
+	font-size:39px;
+}
+#indexLink:hover{
+	border:0;	/*overwrites display border rule for .top a*/
+}
