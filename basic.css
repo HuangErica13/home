@@ -7,11 +7,11 @@ body{
 	font-family:cursive;
 }
 h3{
-	font-size:18px;
+	font-size:18px;		/*sets h3 text style*/
 	margin-bottom:5px;
 }
 h4{
-	text-align:left;
+	text-align:left;		/*sets h4 text style*/
 	font-weight:normal;
 	font-size:18px;
 	margin-left:13px;
@@ -26,11 +26,11 @@ ul{
 	padding:39px;
 }
 li{
-	text-align:right;
+	text-align:right;	/*aligns list items*/
 	margin-right:26px;
 }
 img{
-	float:right;
+	float:right;		/*aligns snow image*/
 	margin-right:200px;
 	margin-top:20px;
 }
@@ -47,15 +47,15 @@ img{
 	padding:5px;
 }
 .decor{
-	float:left;
+	float:left;		/*aligns flower and cake image*/
 	margin:65px;
 }
 .border{
-	border:4px dotted white;
+	border:4px dotted white;	/*creates image border*/
 	padding:2px;
 }
 .valid img{
-	margin:5px;
+	margin:5px;		/*aligns validator images*/
 }
 #bday:hover::after{
 	content: "The exact day I was born was actually a Friday the 13th!"	/*displays bonus info when mouse hovers over*/

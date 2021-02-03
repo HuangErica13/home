@@ -10,11 +10,11 @@ ol{
 	display:inline-flex;	/*displays list items next to each other*/
 }
 table{
-	width:100%;
+	width:100%;					/*table fills entire page*/
 	border-collapse:collapse;
 }
 table, th, td{
-	border:1px solid LavenderBlush;
+	border:1px solid LavenderBlush;		/*creates table border*/
 	padding:13px;
 }
 br+a{

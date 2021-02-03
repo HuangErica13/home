@@ -15,20 +15,17 @@ ul{
 	border-bottom:2px dashed LavenderBlush;	/*creates bottom border*/
 	padding:39px;
 }
-a{
-	
-}
 p+a, a+a{
 	text-decoration:none;	/*removes underline*/
 	margin:13px;
 	color:PaleGreen;
 }
 .content img{
-	border:2px dotted white;
+	border:2px dotted white;	/*creates border for content images*/
 	margin:9px;
 }
 iframe{
-	margin:26px;
+	margin:26px;	/*aligns iframe*/
 }
 .top a{
 	margin:52px;	/*sets button style*/
